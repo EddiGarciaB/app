@@ -13,8 +13,8 @@ CORS(app)
 
 # Función genérica para enviar correos electrónicos con opción de adjuntar una imagen (QR)
 def send_email(receiver_email, subject, body, qr_img_data=None):
-    sender_email = "eddi.garciab@gmail.com"  # Reemplaza con tu correo
-    password = "vzvj cuyd inuj bcjt"  # Reemplaza con tu contraseña o app password
+    sender_email = "digitallstarken@gmail.com"  # Reemplaza con tu correo
+    password = "hjpn cklo qqhg tlme"  # Reemplaza con tu contraseña o app password
 
     # Configurar el mensaje MIME
     msg = MIMEMultipart("alternative")
